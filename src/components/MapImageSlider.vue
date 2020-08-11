@@ -1983,7 +1983,7 @@ $polygon: '~@/assets/images/polygon.png';
 
 }
   .state-trend  {
-  fill: #00264c;
+  fill: rgb(0, 153, 128);
 }
 #annotate-map {
   fill:none;
