@@ -105,7 +105,7 @@ add_state_hovers <- function(svg_root, state_dat, state_loc_info, states, scale_
     
     st_hovers <- svg_root %>%
       add_state_grp(state_nm, trans_x = st_pos$x, trans_y = st_pos$y, grp_id = "hovers") %>% 
-      add_hover_rects(st_dat, state_nm, scale_x = scale_width, scale_y = scale_height)
+      add_hover_rects(st_dat, state_nm, scale_x = scale_width*.9, scale_y = scale_height)
   }
   
 }
@@ -122,10 +122,10 @@ add_bar_path <- function(svg_root, state_nm, state_data, scale_x = 1, scale_y = 
                 transform = sprintf("scale(%s %s)", scale_x, scale_y))
 }
 
-add_state_txt <- function(svg_root, state_nm, state_data, scale_x = 1) {
+add_state_txt <- function(svg_root, state_nm, state_data, scale_x) {
     xml_add_sibling(svg_root, "text", unique(state_data$state), 
                     class = "state-label", 
-                    y = "0", x = as.character(nrow(state_data)*scale_x))
+                    y = -2, x = as.character(nrow(state_data)*scale_x-2))
 }
 
 add_hover_rects <- function(svg_root, dat, state_nm, mx = 0, my = 0, scale_x = 1, scale_y = 1) {

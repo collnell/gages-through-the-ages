@@ -30,8 +30,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >ME</text>
         </g>
         <g
@@ -46,8 +46,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >VT</text>
         </g>
         <g
@@ -62,8 +62,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >NH</text>
         </g>
         <g
@@ -78,8 +78,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >WA</text>
         </g>
         <g
@@ -94,8 +94,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >ID</text>
         </g>
         <g
@@ -110,8 +110,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >MT</text>
         </g>
         <g
@@ -126,8 +126,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >ND</text>
         </g>
         <g
@@ -142,8 +142,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >MN</text>
         </g>
         <g
@@ -158,8 +158,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >WI</text>
         </g>
         <g
@@ -174,8 +174,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >MI</text>
         </g>
         <g
@@ -190,8 +190,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >NY</text>
         </g>
         <g
@@ -206,8 +206,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >MA</text>
         </g>
         <g
@@ -222,8 +222,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >RI</text>
         </g>
         <g
@@ -238,8 +238,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >OR</text>
         </g>
         <g
@@ -254,8 +254,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >NV</text>
         </g>
         <g
@@ -270,8 +270,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >WY</text>
         </g>
         <g
@@ -286,8 +286,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >SD</text>
         </g>
         <g
@@ -302,8 +302,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >IA</text>
         </g>
         <g
@@ -318,8 +318,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >IL</text>
         </g>
         <g
@@ -334,8 +334,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >IN</text>
         </g>
         <g
@@ -350,8 +350,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >OH</text>
         </g>
         <g
@@ -366,8 +366,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >PA</text>
         </g>
         <g
@@ -382,8 +382,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >NJ</text>
         </g>
         <g
@@ -398,8 +398,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >CT</text>
         </g>
         <g
@@ -414,8 +414,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >CA</text>
         </g>
         <g
@@ -430,8 +430,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >UT</text>
         </g>
         <g
@@ -446,8 +446,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >CO</text>
         </g>
         <g
@@ -462,8 +462,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >NE</text>
         </g>
         <g
@@ -478,8 +478,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >MO</text>
         </g>
         <g
@@ -494,8 +494,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >KY</text>
         </g>
         <g
@@ -510,8 +510,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >WV</text>
         </g>
         <g
@@ -526,8 +526,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >MD</text>
         </g>
         <g
@@ -542,8 +542,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >DE</text>
         </g>
         <g
@@ -558,8 +558,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >DC</text>
         </g>
         <g
@@ -574,8 +574,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >AZ</text>
         </g>
         <g
@@ -590,8 +590,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >NM</text>
         </g>
         <g
@@ -606,8 +606,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >KS</text>
         </g>
         <g
@@ -622,8 +622,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >AR</text>
         </g>
         <g
@@ -638,8 +638,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >TN</text>
         </g>
         <g
@@ -654,8 +654,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >VA</text>
         </g>
         <g
@@ -670,8 +670,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >NC</text>
         </g>
         <g
@@ -686,8 +686,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >SC</text>
         </g>
         <g
@@ -702,8 +702,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >OK</text>
         </g>
         <g
@@ -718,8 +718,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >LA</text>
         </g>
         <g
@@ -734,8 +734,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >MS</text>
         </g>
         <g
@@ -750,8 +750,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >AL</text>
         </g>
         <g
@@ -766,8 +766,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >GA</text>
         </g>
         <g
@@ -782,8 +782,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >TX</text>
         </g>
         <g
@@ -798,8 +798,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >FL</text>
         </g>
         <g
@@ -814,8 +814,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >AK</text>
         </g>
         <g
@@ -830,8 +830,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >HI</text>
         </g>
         <g
@@ -846,8 +846,8 @@
           />
           <text
             class="state-label"
-            y="0"
-            x="41.22"
+            y="-2"
+            x="39.22"
           >PR</text>
         </g>
         <rect
