@@ -1770,7 +1770,6 @@
         <text
           id="title-svg"
           transform="translate(0 0)"
-          style="font-size: 14px; font-weight: 600; fill: rgb(139, 139, 139);"
         >State-level trends in USGS streamgaging<tspan
           x="0"
           y="15"
@@ -1847,7 +1846,8 @@
           return{
               atlantaText: atlantaSliderText.textContents,
               svg: null,
-              pt: null
+              pt: null,
+              firstHover: null
           }
       },
       mounted(){
@@ -1867,6 +1867,12 @@
         
         gagetip(evt) {
       
+          if (!this.firstHover) {
+            document.getElementById("annotate-svg").setAttribute("class","hidden");
+            document.getElementById("arrow").setAttribute("class","hidden");
+            this.firstHover = true;
+          }
+      
           let tooltip = document.getElementById("tooltip");
           let tooltip_bg = document.getElementById("tooltip_bg");
           let tool_pt = document.getElementById("tool_pt");
@@ -1884,12 +1890,12 @@
             let svgWidth = Number(this.svg.getAttribute("viewBox").split(" ")[2]);
             tooltip.setAttribute("x",this.pt.x);
             tooltip.setAttribute("y",this.pt.y);
-      
-            let translate_elements = window.getComputedStyle(evt.target.parentElement).transform;
-            let scale_elements = window.getComputedStyle(evt.target).transform;
-      
-            let scaleX = scale_elements.split(", ")[0].split("matrix(")[1];
-            let translateX = translate_elements.split(", ")[4];
+            
+            let translate_elements = evt.target.parentElement.getAttribute("transform");
+            let scale_elements = evt.target.getAttribute("transform");
+            
+            let scaleX = scale_elements.split(/scale\(| /)[1];
+            let translateX = translate_elements.split(/translate\(| /)[1];
             let tip_JSON = evt.target.getAttribute("data");
             let tip_data = JSON.parse(tip_JSON);
             let pt_index = Math.round((this.pt.x - Math.round(translateX) ) / scaleX - 0.5);
@@ -1919,6 +1925,19 @@
   }
 </script>
 <style lang="scss">
+
+// Import Colors
+$stateFill: #e4e4e3;
+$white: rgb(255,255,255);
+$axis: rgb(100,100,100);
+$lightGray:rgb(237,237,237);
+$darkGray: rgb(51,51,51);
+$brightBlue: rgb(9,98,178);
+$usgsGreen: rgb(51,120,53);
+$brightYellow: rgb(255,200,51);
+
+
+
 @import /* webpackPrefetch: true */ '~beerslider/dist/BeerSlider.css';
 $polygon: '~@/assets/images/polygon.png';
 .spacer{
@@ -1926,7 +1945,7 @@ $polygon: '~@/assets/images/polygon.png';
 }
 .sliderContainer{
     position: relative;
-    margin-top: 10px;
+    margin-top: 100px;
 }
 .beer-slider[data-beer-label]:after,
 .beer-reveal[data-beer-label]:after{
@@ -1943,10 +1962,10 @@ $polygon: '~@/assets/images/polygon.png';
   left: 5px; 
 }
 .beer-handle{
-    background:#3887be;
+    background: $brightBlue;
 }
 .beer-ready .beer-handle, .beer-ready .beer-reveal{
-    border-right: 2px solid #3887be;
+    border-right: 2px solid $brightBlue;
 }
 .beer-handle:before, .beer-handle:after{
     border-left: 2px solid #fff;
@@ -1954,7 +1973,7 @@ $polygon: '~@/assets/images/polygon.png';
 }
 
 .beer-range:focus ~ .beer-handle {
-    background: #3887be
+    background: $brightBlue;
 }
 .scale{
     position: absolute;
@@ -1970,10 +1989,10 @@ $polygon: '~@/assets/images/polygon.png';
     border-radius: 50%;
 }
 .urbanGage{
-    background: #f7bb2e;
+    background: $brightBlue;
 }
 .ruralGage{
-    background: #b087bd;
+    background: $brightBlue;
 }
 .urbanPolygon{
     background-image: url($polygon);
@@ -1988,15 +2007,22 @@ $polygon: '~@/assets/images/polygon.png';
   width:150%;
   height: auto;
 
+  #title-svg {
+    color: $darkGray;
+    font-weight: bold;
+  }
+
 .state-label{
   font-size: 12px;
   font-weight: 600;
   fill: white;
   text-anchor: end;
+  padding-right: 20px;
+  padding-bottom: 20px;
 
 }
 .state-trend  {
-  fill: #00264c;
+  fill: $brightBlue;
 }
 .state-mousers  {
   fill: #0000001c;
@@ -2009,8 +2035,8 @@ $polygon: '~@/assets/images/polygon.png';
   stroke-width:5px;
 }
  .annotate {
-    fill: rgb(139, 139, 139);
-    stroke: rgb(139, 139, 139);
+    fill: $lightGray;
+    stroke: $lightGray;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 1px;
@@ -2021,7 +2047,7 @@ $polygon: '~@/assets/images/polygon.png';
 }
 .tooltip-box{
   stroke-width: 0.5;
-  stroke: #696969;
+  stroke: $lightGray;
   opacity: 0.95;
   fill: #f2f2f2;
 }
